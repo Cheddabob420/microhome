@@ -1,0 +1,328 @@
+Micro Control Center
+
+Hardware:
+
+Main PC(
+Architecture:                         x86_64
+CPU op-mode(s):                       32-bit, 64-bit
+Address sizes:                        36 bits physical, 48 bits virtual
+Byte Order:                           Little Endian
+CPU(s):                               4
+On-line CPU(s) list:                  0-3
+Vendor ID:                            GenuineIntel
+Model name:                           Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz
+CPU family:                           6
+Model:                                58
+Thread(s) per core:                   1
+Core(s) per socket:                   4
+Socket(s):                            1
+Stepping:                             9
+CPU(s) scaling MHz:                   52%
+CPU max MHz:                          3600.0000
+CPU min MHz:                          1600.0000
+BogoMIPS:                             6385.36
+Flags:                                fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm cpuid_fault epb pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase smep erms xsaveopt dtherm ida arat pln pts md_clear flush_l1d
+Virtualization:                       VT-x
+L1d cache:                            128 KiB (4 instances)
+L1i cache:                            128 KiB (4 instances)
+L2 cache:                             1 MiB (4 instances)
+L3 cache:                             6 MiB (1 instance)
+NUMA node(s):                         1
+NUMA node0 CPU(s):                    0-3
+Vulnerability Gather data sampling:   Not affected
+Vulnerability Itlb multihit:          KVM: Mitigation: VMX disabled
+Vulnerability L1tf:                   Mitigation; PTE Inversion; VMX conditional cache flushes, SMT disabled
+Vulnerability Mds:                    Mitigation; Clear CPU buffers; SMT disabled
+Vulnerability Meltdown:               Mitigation; PTI
+Vulnerability Mmio stale data:        Unknown: No mitigations
+Vulnerability Reg file data sampling: Not affected
+Vulnerability Retbleed:               Not affected
+Vulnerability Spec rstack overflow:   Not affected
+Vulnerability Spec store bypass:      Mitigation; Speculative Store Bypass disabled via prctl
+Vulnerability Spectre v1:             Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+Vulnerability Spectre v2:             Mitigation; Retpolines; IBPB conditional; IBRS_FW; STIBP disabled; RSB filling; PBRSB-eIBRS Not affected; BHI Not affected
+Vulnerability Srbds:                  Vulnerable: No microcode
+Vulnerability Tsx async abort:        Not affected
+
+PCI
+00:00.0 Host bridge: Intel Corporation Xeon E3-1200 v2/3rd Gen Core processor DRAM Controller (rev 09)
+	Subsystem: Dell Xeon E3-1200 v2/3rd Gen Core processor DRAM Controller
+	Flags: bus master, fast devsel, latency 0, IOMMU group 0
+	Capabilities: <access denied>
+	Kernel driver in use: ivb_uncore
+	Kernel modules: ie31200_edac
+
+00:01.0 PCI bridge: Intel Corporation Xeon E3-1200 v2/3rd Gen Core processor PCI Express Root Port (rev 09) (prog-if 00 [Normal decode])
+	Subsystem: Dell Xeon E3-1200 v2/3rd Gen Core processor PCI Express Root Port
+	Flags: bus master, fast devsel, latency 0, IRQ 25, IOMMU group 1
+	Bus: primary=00, secondary=01, subordinate=01, sec-latency=0
+	I/O behind bridge: e000-efff [size=4K] [16-bit]
+	Memory behind bridge: f6000000-f70fffff [size=17M] [32-bit]
+	Prefetchable memory behind bridge: e0000000-f1ffffff [size=288M] [32-bit]
+	Capabilities: <access denied>
+	Kernel driver in use: pcieport
+
+00:14.0 USB controller: Intel Corporation 7 Series/C210 Series Chipset Family USB xHCI Host Controller (rev 04) (prog-if 30 [XHCI])
+	Subsystem: Dell 7 Series/C210 Series Chipset Family USB xHCI Host Controller
+	Flags: bus master, medium devsel, latency 0, IRQ 28, IOMMU group 2
+	Memory at f7120000 (64-bit, non-prefetchable) [size=64K]
+	Capabilities: <access denied>
+	Kernel driver in use: xhci_hcd
+	Kernel modules: xhci_pci
+
+00:19.0 Ethernet controller: Intel Corporation 82579LM Gigabit Network Connection (Lewisville) (rev 04)
+	DeviceName:  Onboard LAN
+	Subsystem: Dell 82579LM Gigabit Network Connection (Lewisville)
+	Flags: bus master, fast devsel, latency 0, IRQ 30, IOMMU group 3
+	Memory at f7100000 (32-bit, non-prefetchable) [size=128K]
+	Memory at f7139000 (32-bit, non-prefetchable) [size=4K]
+	I/O ports at f040 [size=32]
+	Capabilities: <access denied>
+	Kernel driver in use: e1000e
+	Kernel modules: e1000e
+
+00:1a.0 USB controller: Intel Corporation 7 Series/C216 Chipset Family USB Enhanced Host Controller #2 (rev 04) (prog-if 20 [EHCI])
+	Subsystem: Dell 7 Series/C216 Chipset Family USB Enhanced Host Controller
+	Flags: bus master, medium devsel, latency 0, IRQ 16, IOMMU group 4
+	Memory at f7138000 (32-bit, non-prefetchable) [size=1K]
+	Capabilities: <access denied>
+	Kernel driver in use: ehci-pci
+	Kernel modules: ehci_pci
+
+00:1b.0 Audio device: Intel Corporation 7 Series/C216 Chipset Family High Definition Audio Controller (rev 04)
+	Subsystem: Dell 7 Series/C216 Chipset Family High Definition Audio Controller
+	Flags: bus master, fast devsel, latency 0, IRQ 26, IOMMU group 5
+	Memory at f7130000 (64-bit, non-prefetchable) [size=16K]
+	Capabilities: <access denied>
+	Kernel driver in use: snd_hda_intel
+	Kernel modules: snd_hda_intel
+
+00:1d.0 USB controller: Intel Corporation 7 Series/C216 Chipset Family USB Enhanced Host Controller #1 (rev 04) (prog-if 20 [EHCI])
+	Subsystem: Dell 7 Series/C216 Chipset Family USB Enhanced Host Controller
+	Flags: bus master, medium devsel, latency 0, IRQ 23, IOMMU group 6
+	Memory at f7137000 (32-bit, non-prefetchable) [size=1K]
+	Capabilities: <access denied>
+	Kernel driver in use: ehci-pci
+	Kernel modules: ehci_pci
+
+00:1f.0 ISA bridge: Intel Corporation Q77 Express Chipset LPC Controller (rev 04)
+	Subsystem: Dell Q77 Express Chipset LPC Controller
+	Flags: bus master, medium devsel, latency 0, IOMMU group 7
+	Capabilities: <access denied>
+	Kernel driver in use: lpc_ich
+	Kernel modules: lpc_ich
+
+00:1f.2 SATA controller: Intel Corporation 7 Series/C210 Series Chipset Family 6-port SATA Controller [AHCI mode] (rev 04) (prog-if 01 [AHCI 1.0])
+	Subsystem: Dell 7 Series/C210 Series Chipset Family 6-port SATA Controller [AHCI mode]
+	Flags: bus master, 66MHz, medium devsel, latency 0, IRQ 27, IOMMU group 7
+	I/O ports at f090 [size=8]
+	I/O ports at f080 [size=4]
+	I/O ports at f070 [size=8]
+	I/O ports at f060 [size=4]
+	I/O ports at f020 [size=32]
+	Memory at f7136000 (32-bit, non-prefetchable) [size=2K]
+	Capabilities: <access denied>
+	Kernel driver in use: ahci
+	Kernel modules: ahci
+
+00:1f.3 SMBus: Intel Corporation 7 Series/C216 Chipset Family SMBus Controller (rev 04)
+	Subsystem: Dell 7 Series/C216 Chipset Family SMBus Controller
+	Flags: medium devsel, IRQ 18, IOMMU group 7
+	Memory at f7135000 (64-bit, non-prefetchable) [size=256]
+	I/O ports at f000 [size=32]
+	Kernel driver in use: i801_smbus
+	Kernel modules: i2c_i801
+
+01:00.0 VGA compatible controller: NVIDIA Corporation GT218 [GeForce 210] (rev a2) (prog-if 00 [VGA controller])
+	Subsystem: Micro-Star International Co., Ltd. [MSI] N210 [Geforce 210] PCIe graphics adapter
+	Flags: bus master, fast devsel, latency 0, IRQ 29, IOMMU group 1
+	Memory at f6000000 (32-bit, non-prefetchable) [size=16M]
+	Memory at e0000000 (64-bit, prefetchable) [size=256M]
+	Memory at f0000000 (64-bit, prefetchable) [size=32M]
+	I/O ports at e000 [size=128]
+	Expansion ROM at 000c0000 [disabled] [size=128K]
+	Capabilities: <access denied>
+	Kernel driver in use: nouveau
+	Kernel modules: nouveau
+
+01:00.1 Audio device: NVIDIA Corporation High Definition Audio Controller (rev a1)
+	Subsystem: Micro-Star International Co., Ltd. [MSI] N210 [Geforce 210] PCIe graphics adapter
+	Flags: bus master, fast devsel, latency 0, IRQ 17, IOMMU group 1
+	Memory at f7080000 (32-bit, non-prefetchable) [size=16K]
+	Capabilities: <access denied>
+	Kernel driver in use: snd_hda_intel
+	Kernel modules: snd_hda_intel
+	)
+
+Rasberry Pi zero 2(
+32g sd card
+os=dietpi
+not powered due to lack of cable to connect eth.
+very slow when hosting esphome so will postpone using untill we have comp module
+)
+
+ESP32-C3 Super Mini x3(
+Chipset     ESP32-C3FN4(RISC-V, 4MB flash)
+pins 1-21
+Micro USB
+Boot(IO9), Reset(EN)
+Board ver  v1601
+
+| **Label** | **Function**        |
+| --------- | ------------------- |
+| 5V        | USB 5V input        |
+| 3.3       | 3.3V regulated out  |
+| GND       | Ground              |
+| IO0       | Boot (Flash mode)   |
+| IO9       | Button / Input      |
+| IO10      | SPI/LED/General I/O |
+| IO19      | I²C SDA / GPIO      |
+| IO18      | I²C SCL / GPIO      |
+| IO20      | UART RX             |
+| IO21      | UART TX             |
+)
+
+IdeaSpark ESP32 board with a built-in TFT LCD display(
+
+ESP32-WROOM-32 with a 240x320 SPI-based ILI9341 display
+)
+
+
+Waveshare RP2040-LCD-1.47(
+Raspberry Pi RP2040-based board with a built-in 1.47" TFT LCD screen
+Introduction
+RP2350-LCD-1.47-B is a low-cost, high-performance MCU board designed by Waveshare. In a smaller board size, the board is equipped with a 1.47inch capacitive LCD screen, TF card slot, RGB lights and other peripherals, making it easy to develop and embed into products.
+
+Features
+RP2350 microcontroller chip designed by Raspberry Pi
+Adopts unique dual-core and dual-architecture design, equipped with dual-core ARM Cortex-M33 processor and dual-core Hazard3 RISC-V core processor, flexible clock running up to 150 MHz
+Built-in 520KB of SRAM and 16MB of on-chip Flash
+Type-C connector, keeps it up to date, easier to use
+Onboard 1.47inch capacitive touch LCD display, 172×320 resolution, 262K color
+USB1.1 host and device support
+Low-power sleep and dormant modes
+Drag-and-drop programming using mass storage over USB
+Temperature sensor
+Accurate clock and timer on-chip
+On-chip accelerated floating-point library
+Specifications
+LCD parameters
+Display Chip	ST7789V3	Display Interface	SPI
+Resolution	172(H)RGB x 320(V)	Display Size	17.39mm × 32.35 mm
+Display Panel	IPS	Pixel Pitch	0.0337mm × 0.1011 mm
+
+Python
+Underlying Hardware Interface
+Module initialization
+def __init__(self)
+Send a command
+def write_cmd(self, cmd)
+Send data
+def write_data(self, buf)
+Adjust backlight
+def set_bl_pwm(self,duty)
+Drawing GUI
+Import a library
+import framebuf
+Create an object
+The custom class LCD_1inch28 inherits the framebuf.FrameBuffer class from MicroPython, which provides many methods to draw images, let's create the LCD_1inch28 class object first
+
+LCD = LCD_1inch28()
+Draw a line
+LCD.line(x1, y1, x2, y2, color)
+Parameters:
+	x1, y1: The x and y coordinates of the starting point
+	x2, y2: The x and y coordinates of the endpoint
+	color:  The color of the line
+Draw a rectangle
+LCD.fill_rect(x1, y1, w, h, color)
+Parameters:
+	x1, y1: The x and y coordinates of the upper left corner of the rectangle
+        w, h:   The width and height of the rectangle
+        color:  The filling color of the rectangle
+Draw text
+LCD.text(str, x, y, color)
+Parameters:
+         str:   Display text
+	 x, y:  The x and y coordinates of the upper left corner of the text
+         color: The color of the text
+Change the text size
+LCD.write_text(str, x, y, size, color)
+Parameters:
+	 size: The difference between this function and LCD.text is that it supports custom font size, which is used to specify the font size
+Display
+LCD.show()
+QMI8658
+Create an object
+qmi8658=QMI8658()
+Read and parse the XYZ data of the sensor
+xyz=qmi8658.Read_XYZ()
+Return values:
+          xyz[0]~xyz[2]: The function returns an array, with the first three elements representing acceleration on the X, Y, and Z axes
+	  xyz[3]~xyz[5]: These three elements represent the angular velocities on the X, Y, and Z axes
+)
+
+Display: 1.47" IPS LCD (172×320)
+
+USB-C connector
+
+BOOT + RST buttons
+
+MicroSD slot
+
+Labeled headers (3V3, GND, 5V, IOx, etc.)
+)
+
+Rasberry Pico H(
+Normal pico with headders
+)
+Rasberry Pico W(
+Normal pico with headders
+)
+Rasberry Pico 2(
+Normal pico with headders
+)
+RP2040-GEEK(
+https://www.waveshare.com/wiki/RP2040-GEEK
+Overview
+Introduction
+RP2040-GEEK is a development board designed for geeks by Waveshare, with onboard USB-A interface, 1.14inch LCD screen, TF card slot, and other peripherals. It provides different firmware for SWD port, UART port, and I2C port.
+
+Features
+RP2040 microcontroller chip designed by Raspberry Pi in the United Kingdom.
+Dual-core ARM Cortex M0+ processor, with a high operating frequency of up to 133MHz and flexible clock.
+Built-in 264KB of SRAM and 4MB of onboard Flash.
+Onboard 1.14inch 240×135 pixel 65K color IPS LCD display.
+Onboard 3PIN SWD port for connecting the debugged target board.
+Standard CMSIS-DAP interface can be used to debug most ARM-based microcontrollers.
+Works with OpenOCD and other tools supporting CMSIS-DAP.
+Adopts the Raspberry Pi 3PIN Debug Connector Specification.
+Onboard 3PIN UART interface for USB serial adapter functionality
+Onboard 4PIN I2C port for the testing target board.
+Equipped with plastic case and cables.
+Open-source firmware, more convenient to upgrade.
+)
+
+RP2350-GEEK(
+https://www.waveshare.com/wiki/RP2350-GEEK
+Introduction
+RP2350-GEEK is a development board designed for geeks by Waveshare. It comes with a USB-A port, 1.14inch LCD screen, TF card slot, and other peripherals. Depending on the firmware used, it can provide SWD interface, UART interface, and I2C interface, offering endless possibilities for your projects.
+
+Features
+RP2350 microcontroller chip designed by Raspberry Pi
+Adopts unique dual-core and dual-architecture design, equipped with dual-core ARM Cortex-M33 processor and dual-core Hazard3 RISC-V core processor, flexible clock running up to 150 MHz
+Built-in 520KB of SRAM and 16MB of on-chip Flash
+Onboard 1.14inch 240×135 pixels 65K color IPS LCD display
+Onboard 3PIN SWD interface for connecting to the target board to be debugged
+Standard CMSIS-DAP interface, applicable for most ARM-based microcontrollers
+Works with OpenOCD and other tools supporting CMSIS-DAP
+Adopts the Raspberry Pi 3PIN Debug Connector Specification
+Onboard 3PIN UART interface for USB serial adapter
+Onboard 4PIN I2C port for the testing target board
+Equipped with plastic case and cables
+Open-source firmware, more convenient to upgrade
+)
+
+
+Components:
+
